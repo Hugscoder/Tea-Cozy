@@ -8,14 +8,24 @@
 }
 
 .menu {
-    display: inline-flex;
-    width: 100%;
+    display: flex;
+    justify-content: space-between;
 
 }
 
 .tabs {
-    display: inline-flex;
-    width: 800px;
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    width: 300px;
+    padding: 12px 12px;
+
+}
+
+img .logo {
+    max-width: 50px;
+    height: auto;
+
 }
 
 body {
