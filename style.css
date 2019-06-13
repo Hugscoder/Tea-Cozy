@@ -79,3 +79,23 @@ li {
     height: 400px;
     text-align: center;
 }
+
+.tea-collection {
+    Display: flex;
+    align-content: center;
+    justify-items: center;
+    flex-flow: row wrap;
+    width: 100%;
+
+}
+
+.picture {
+    height: 200px;
+    width: 300px;
+    background-color: darkgrey;
+}
+
+.tea {
+    text-align: center;
+    margin: 0px 40px;
+}
