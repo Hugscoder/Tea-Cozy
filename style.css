@@ -69,6 +69,13 @@ li {
 
 /* Tea of the month section */
 
+.tea-section {
+    display: flex;
+    flex-direction: column;
+    align-items: space-around;
+    justify-content: center;
+}
+
 .title-tea {
     Display: flex;
     flex-direction: column;
@@ -82,6 +89,8 @@ li {
 
 .tea-collection {
     Display: flex;
+    align-items: space-around;
+    justify-content: center;
     flex-flow: wrap row;
     text-align: center;
 }
@@ -94,5 +103,5 @@ li {
 
 .tea {
     text-align: center;
-    margin: 0px 20px;
+    margin: 20px 20px;
 }
