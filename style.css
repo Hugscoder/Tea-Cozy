@@ -1,6 +1,21 @@
+
+/* top navigation bar */
+
 .Navigation {
     width: 100%;
     background: black;
+    display: inline-block;
+}
+
+.menu {
+    display: inline-flex;
+    width: 100%;
+
+}
+
+.tabs {
+    display: inline-flex;
+    width: 800px;
 }
 
 body {
