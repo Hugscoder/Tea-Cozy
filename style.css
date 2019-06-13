@@ -5,22 +5,17 @@ body {
     color: seashell;
     background: black;
     font-family: Helvetica;
+    margin: 0%;
 }
 
 /* top navigation bar */
-
-.Navigation {
-    width: 100%;
-    background: black;
-    display: inline-block;
-}
 
 .menu {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 20px;
-    height: 69px;
+    padding: 24px 40px;
+    height: 69px;g
 }
 
 .tabs {
@@ -32,7 +27,7 @@ body {
 }
 
 .logo img {
-    max-height: 50px;
+    max-height: 40px;
     width: auto;
 
 }
@@ -48,6 +43,9 @@ body {
     justify-items: center;
     background-repeat: no-repeat;
     background-size: 100%;
+    background-position: center;
+    margin: 0%;
+    position: top;
 }
 
 .Hero-copy {
@@ -56,6 +54,20 @@ body {
     align-items: center;
     justify-content: center;
     width: 100%;
+    min-width: 700px;
     text-align: center;
+    padding: 32px 40px;
+}
 
+/* Tea of the month section */
+
+.title-tea {
+    Display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 4px;
+    justify-content: center;
+    width: 100%;
+    height: 400px;
+    text-align: center;
 }
