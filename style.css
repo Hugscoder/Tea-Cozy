@@ -105,3 +105,33 @@ li {
     text-align: center;
     margin: 20px 20px;
 }
+
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 500px;
+}
+
+.address {
+    text-align: center;
+    padding: 20px 20px;
+    margin: 20px 20px;
+}
+
+.location-section {
+    align-content: center;
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    width: 100%;
+    justify-items: center;
+}
+
+.title-location {
+    text-align: center;
+    width: 100%;
+    background-color: blue;
+}
