@@ -8,6 +8,15 @@ body {
     margin: 0;
 }
 
+p {
+    font-weight: 300;
+    line-height: 1.7em;
+}
+
+h2 {
+    font-weight: 300;
+    line-height: 1.7em;
+}
 /* top navigation bar */
 
 .menu {
@@ -44,14 +53,14 @@ li {
 
 .Banner {
     background: url("https://images.unsplash.com/photo-1468077218827-c65e763b0e32?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=3300&q=80");
-    width: 100%;
-    height: auto;
+    width: auto;
+    height: 100%;
     min-height: 700px;
     display: flex;
     align-content: center;
     justify-content: space-around;
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
     background-position: center;
     margin-top: 80px;
 }
@@ -80,11 +89,14 @@ li {
     Display: flex;
     flex-direction: column;
     align-items: center;
-    line-height: 4px;
+    line-height: 1em;
     justify-content: center;
     width: 100%;
-    height: 300px;
     text-align: center;
+}
+
+#tea-of-the-month {
+    height: 300px;
 }
 
 .tea-collection {
@@ -95,10 +107,9 @@ li {
     text-align: center;
 }
 
-.picture {
+img {
     height: 200px;
     width: 300px;
-    background-color: darkgrey;
 }
 
 .tea {
@@ -109,31 +120,41 @@ li {
 
 /* Location section */
 
+
 .address-list {
     display: flex;
+    align-items: center;
     flex-direction: row;
-    align-content: space-around;
+    flex-wrap: wrap;
     justify-content: space-around;
     text-align: center;
-    height: 500px;
+    width: 80%;
 }
 
 .address {
     text-align: center;
+    padding: 10px 30px;
+    margin: 20px 10px;
 }
 
 .location-section {
-    align-content: center;
+    align-items: center;
     background: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
     background-position: center;
     display: flex;
     flex-direction: column;
-    height: 500px;
+    height: auto;
     width: 100%;
-    justify-items: center;
+    justify-content: space-around;
+    padding: 40px 20px;
     
+}
+
+#Locations {
+    height: 90px;
+    margin-top: 40px;
 }
 
 
@@ -145,4 +166,8 @@ li {
     display: flex;
     height: 100px;
     justify-content: center;
+}
+
+#footer {
+    height: 300px;
 }
